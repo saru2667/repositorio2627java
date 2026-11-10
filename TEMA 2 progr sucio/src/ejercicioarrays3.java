@@ -15,7 +15,7 @@
 
 
 
-public class ejercicioarrays3 {
+/*public class ejercicioarrays3 {
     static void main(String[] args) {
         int size = ("cuántos números serán");
         int[] array = new int[size];
@@ -26,3 +26,4 @@ public class ejercicioarrays3 {
         }
     }
 }
+*/

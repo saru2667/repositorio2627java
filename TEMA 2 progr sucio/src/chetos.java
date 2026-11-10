@@ -1,4 +1,4 @@
-package Chetos;
+/*package Chetos;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -89,6 +89,6 @@ public class Cheats {
     public static double calcularAreaCirculo(double radio) {
         return Math.PI * Math.pow(radio, 2);
     }
-
-
 }
+
+*/
