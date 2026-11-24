@@ -11,7 +11,10 @@ public class intentoExamen {
             System.out.println("Introduce el número de vueltas que realizará");
             vueltas = sc.nextInt();
         }
-        while (vueltas<3 || vueltas >10);
+        while (vueltas < 3 || vueltas > 10);
+
+        for (int i = 0; i < vueltas; i++);
+
 
         int tiempo;
         do {
@@ -21,8 +24,16 @@ public class intentoExamen {
         }
         while (tiempo <= 0);
 
+        int tiempov;
+        System.out.println("Introduce el tiempo realizado");
+        tiempov = teclado.nextInt();
 
-
-
+        if (tiempov < tiempo) {
+            System.out.println("tiempo mejorado");
+        } else if (tiempov > tiempo) {
+            System.out.println("tiempo empeorado");
+        } else if (tiempov == tiempo) {
+            System.out.println("tiempo igualado");
+        }
     }
 }
